@@ -1,0 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#underCon{
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textUnder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+#canvas{
+    width: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.animation{
+    width: 100%;
+    height: auto;
+}
+
