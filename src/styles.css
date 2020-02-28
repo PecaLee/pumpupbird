@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "menusystem.css";
+@import "animations.css";
+@import url('https://fonts.googleapis.com/css?family=Oxanium:400,700,800&display=swap');
+
+html{
+    font-family: 'Oxanium';
+    font-size: 20px;
+}
+
+body{
+    overflow: hidden;
+}
+
+h1{
+    text-decoration: underline rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    font-weight: 800;
+    padding: 30px 30px;
+}
+
+.menu__title{
+    margin-top: 20px;    
+}
+
+.menu__title .menu__titles{
+    margin-right: 30px;
+}

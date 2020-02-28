@@ -4,27 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
     <title>Pump Up pecaBird</title>
 </head>
 <body>
-    <div class="siteTitle">
-        <h1>Pump Up!! pecaBird</h1>
-    </div>
+    <a href="#" onClick="top.location='javascript:location.reload()'"><h1>Pump up Pecabird!!</h1></a>
     <div class="menu">
-        <div class="menuDetail">
-            <a href="about.html"><h2>About</h2></a>
-        </div>
-        <div class="menuDetail">
-            <a href="index.html"><h2>Animation</h2></a>
-        </div>
-        <div class="menuDetail">
-            <a href="updatenote.html"><h2>Update note</h2></a>
-        </div>
+        <ul class="menu__title">
+            <li class="menu__titles">
+                <input type="radio" id="toggle-tab1" name="area"/>
+                <label for="toggle-tab1" name="area">
+                    About
+                </label>
+                <ul class="titles__details toggle-menu1">
+                    <li class="details__menu about__undertitle">about this site</li>
+                    <li class="details__menu about__secondtitle">never ending pumping</li>
+                    <li class="details__menu">i will update on the web, how the never ending pumping changes. Please check once in a while.</li>
+                </ul>
+            </li>
+            <li class="menu__titles">
+                <input type="radio" id="toggle-tab2" name="area"/>
+                <label for="toggle-tab2" name="area">
+                    Animation
+                </label>
+                <ul class="titles__details toggle-menu2">
+                    <li class="none"></li>
+                </ul>
+            </li>
+            <li class="menu__titles">
+                    <input type="radio" id="toggle-tab3" name="area"/>
+                    <label for="toggle-tab3" name="area">
+                        Update note
+                    </label>
+                    <ul class="titles__details toggle-menu3">
+                        <li class="details__menu">2020.01.20   -   create page</li>
+                        <li class="details__menu">2020.01.31   -   construct page</li>
+                        <li class="details__menu">2020.02.28   -   update first animation</li>
+                    </ul>
+            </li>
+        </ul>
     </div>
+
     <div class="bgImage">
-        <img class="animation" src="pecabird_animation.jpg" alt="pecabird pump up everything">
+        <img class="animation" src="images/pecabird_animation.jpg" alt="pecabird pump up everything">
     </div>
 </body>
 </html>
