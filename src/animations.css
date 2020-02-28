@@ -1,16 +1,16 @@
 .bgImage{
+    margin-top: 280px;
     width: 100%;
-    height: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding-left: 450px;
 }
 
 #lottie{
     position: absolute;
-    width: 1800px;
+    width: 130%;
     height: auto;
     z-index: -5;
 }
